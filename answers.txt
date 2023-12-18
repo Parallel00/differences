@@ -1,0 +1,4 @@
+1. You can reassign and redeclare with var.  You can't redeclare with let.  var is also a function scope while let is a block scope.
+2. You cannot reassign or redeclare with const, but you can do those things with var.  As before, var is a function scope, while const is also a block scope.
+3. You can reassign with let, but not with const.
+4. It's a way to see how variables, functions, etc. work in Javascript.  They can be lifted to the top of the scope in which they are declared.  This is called "hoisting".
